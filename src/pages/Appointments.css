@@ -1,0 +1,162 @@
+/* Appointments Page Container */
+.appointments-container {
+  /* background:url('../pages/images/appoint.png.png'); */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+
+.appointments-header {
+  opacity: 0.9;
+  /* background:url('../pages/images/appoint.png.png'); */
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+.d3355app{
+  background-image: url("https://img.freepik.com/free-photo/blurry-blank-purple-bokeh-background_53876-101691.jpg?w=900&t=st=1704290793~exp=1704291393~hmac=beb842c23306811c4b7d866adf08760bc7929ccd31f28fdde7d0bfc6f73d570c");
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+background-size: 100% 100%;
+height: 86vh;
+}
+.table-head987{
+  /* background-color: #2ef2d5; */
+  background-color: #a758a0;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap;
+  color:white;
+}
+
+.search-bar {
+  margin-top: 10px;
+  /* padding: 10px auto; */
+}
+.search-bar input{
+  padding: 6px;
+}
+
+
+.popup-container {
+  position: relative;
+  top:0;
+}
+
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  max-width: 400px;
+  width: 100%;
+  height: 50%;
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.popup p {
+  margin: 8px 0;
+}
+
+.popup button {
+  background-color: #af5e4d;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+
+.popup button:hover {
+  background-color: #2980b9;
+}
+
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+}
+
+
+.appointments-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.appointments-table th {
+  color:white;
+}
+
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  /* background-color: #57D496; */
+  background-color: #a758a0;
+  border-radius: 50%;
+  border-color: white;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: black;
+  color: white;
+}
+
+.pagination button[disabled] {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+
+@media (max-width: 768px) {
+  .appointments-header,
+  .search-bar,
+  .popup-container {
+    margin-left: 0;
+  }
+
+  .pagination {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .popup {
+    max-width: 90%;
+  }
+  .appointments-table {
+    overflow-x: scroll;
+    display: block; /* Enable block-level formatting to allow overflow to take effect */
+    white-space: nowrap; /* Prevent line breaks in table cells */
+  }
+}
+@media (max-width: 644px) {
+  .appointments-table {
+    overflow-x: scroll;
+    display: block; /* Enable block-level formatting to allow overflow to take effect */
+    white-space: nowrap; /* Prevent line breaks in table cells */
+}
+}

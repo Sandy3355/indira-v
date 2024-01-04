@@ -1,0 +1,278 @@
+/* AddPatient.css */
+
+.add-patient-form {
+    /* max-width: 104%;  */
+    height: 101%;
+    /* margin: 20px auto; */
+    position: relative;
+    border: 1px solid #333;
+    border-radius:0.1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .flexrow{
+    height: 100px;
+    margin-top: -40px;
+  }
+  .flexrow2{
+    margin-top: -5px;
+  }
+  .bgimg{
+    margin-top: -20px;
+    background-size: cover;
+    height: 100%;
+    /* background-image: url(https://s3-alpha-sig.figma.com/img/1f71/66f6/71f3183ff4c0a43a2d36cfd07c9df051?Expires=1704672000&Signature=ZVsdkO3-YIeZ-ql42ssxcD2-jP~hdmxlrtCIqmErDRAySczc5tkXQlVEvU-GLkhRgRG7C50vycFtb~XaHhPphHVXhbe5lQ3iZVaJouKC0VCSAy4IRwpsGNgXXyjGporljSJQ0VGbI~U1gUa-2t-R9BC4JiviDcHRJQZ-RnpIsuqCufD9gPGDbnLB1qgAv76-a-Z6Ml-NqU-ab1qkgfoUBG~TbQC356afWmGcHa~~8SFuqYIX2fCNOedtxYCPLD1i82GbdIT~qQLr~sp1FHrxx8jdNRU4isIbJoRYiVuzXzMcMXh-w7Imfi-ePOIFczXcg8y~TMfkrwqNCbnMTpSgFQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4); */
+    background-image: url("https://img.freepik.com/free-photo/blurry-blank-purple-bokeh-background_53876-101691.jpg?w=900&t=st=1704290793~exp=1704291393~hmac=beb842c23306811c4b7d866adf08760bc7929ccd31f28fdde7d0bfc6f73d570c");
+  }
+  .mainheading123{
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #a758a0;
+  }
+  .heading123{
+    margin: 0px;
+    
+  }
+  
+  .heading543 {
+    padding-top: 2%;
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    background-color: transparent;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    flex: 0 0 calc(33.33% - 10px);
+    margin-bottom: 20px;
+  }
+  .label1234{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-select,
+  .form-textarea,
+  .form-input {
+    width: 85%;
+    background-color: white !important;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+  }
+  .addbutton{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-button {
+    background-color: #a758a0;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  @media only screen and (max-width: 428px) {
+    /* Adjust styles for even smaller screens */
+    .form-button {
+      font-size: 14px; 
+    }
+    .bgimg{
+      margin-top: -20px;
+      background-size: cover;
+      height: 186vh;
+    }
+    .addbutton {
+      margin-top: -4%;
+    }
+    .form-select, .form-textarea, .form-input {
+      width: 120% !important;
+    }
+    .responsive-row {
+      margin-left: 22%;
+  }
+  .flexrow2 {
+    margin-top: 341px;
+}
+.heading543 {
+  padding-top: 2%;
+  padding-bottom: 3%;
+  text-align: center;
+  color: #333;
+}
+  }
+  
+ /* Add media query for screens with max-width of 768px */
+ @media only screen and (min-width: 426px) and (max-width: 769px) {
+  .add-patient-form {
+    height: auto;
+  }
+
+ 
+  .form-group {
+    flex: 0 0 100%; 
+  }
+
+  .form-select,
+  .form-textarea,
+  .form-input {
+    width: 78%; 
+  }
+  .bgimg{
+    margin-top: -20px;
+    background-size: cover;
+    height: 103vh;
+  }
+  .addbutton {
+    margin-top: -3%;
+  }
+  .responsive-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .flexrow{
+    width: 50%;
+  }
+  .flexrow2{
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .add-patient-form {
+    height: auto;
+  }
+
+ 
+  .form-group {
+    flex: 0 0 100%; 
+  }
+
+  .form-select,
+  .form-textarea,
+  .form-input {
+    width: 78%; 
+  }
+  .bgimg{
+    margin-top: -20px;
+    background-size: cover;
+    height: 103vh;
+  }
+  .addbutton {
+    margin-top: -3%;
+  }
+  .responsive-row{
+    margin-left: 8%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .flexrow{
+    width: 50%;
+  }
+  .flexrow2{
+    width: 50%;
+  }
+  .mainheading123{
+    background-color: #a758a0;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .add-patient-form {
+    height: auto;
+  }
+
+ 
+  .form-group {
+    flex: 0 0 100%; 
+  }
+
+  .form-select,
+  .form-textarea,
+  .form-input {
+    width: 78%; 
+  }
+  .bgimg{
+    margin-top: -20px;
+    background-size: cover;
+    height: 100%;
+  }
+  .addbutton {
+    margin-top: -2%;
+  }
+  .responsive-row{
+    margin-left: 6%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .flexrow{
+    width: 50%;
+  }
+  .flexrow2{
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+  .add-patient-form {
+    height: auto;
+  }
+
+ 
+  .form-group {
+    flex: 0 0 100%; 
+  }
+
+  .form-select,
+  .form-textarea,
+  .form-input {
+    width: 78%; 
+  }
+  .bgimg{
+    margin-top: -20px;
+    background-size: cover;
+    height: 114vh;
+  }
+  .addbutton {
+    margin-top: 1%;
+  }
+  .responsive-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .flexrow{
+    width: 50%;
+  }
+  .flexrow2{
+    width: 50%;
+  }
+}

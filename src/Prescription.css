@@ -1,0 +1,506 @@
+/* Prescription.css */
+
+.hms-body{
+    /* background-color: #B2C3ED8F; */
+    background-image: url("https://img.freepik.com/free-photo/blurry-blank-purple-bokeh-background_53876-101691.jpg?w=900&t=st=1704290793~exp=1704291393~hmac=beb842c23306811c4b7d866adf08760bc7929ccd31f28fdde7d0bfc6f73d570c");
+    background-size: cover;
+    font-family: 'Times New Roman', serif;
+    font-weight: 200;
+   
+    border:1px solid #333;
+}
+.vitailsname{
+    margin-left: 35px;
+}
+.hms-vitals-all-input-div{
+    display: flex;
+}
+.hms-details{
+    padding: 2em;
+}
+.hms-vitals{
+    display: flex;
+   
+}
+.flex1234{
+    display: flex;
+}
+.flex12345{
+    display: flex;
+    margin-top: 21px;
+}
+/* .hms-complaints-diagnosis-div{
+   
+    margin-top: 2%;
+    margin-left: -2%;
+} */
+.hms-vitals-labels{
+    padding-left: 20px;
+}
+.hms-vitals-all-input{
+    margin-left: 3%;
+    width: 50%;
+}
+.hms-input-highlight {
+    border: 1px solid #ccc;
+    height: 20px;
+    text-align: center;
+    border-radius: 2px;
+    margin: 0.4%;
+}
+.hms-input-highlight:focus {
+    outline: none;
+    border: 1px solid #1f281f;
+    background-color: #f8f8f8;
+    color: #333;
+  } 
+.hms-input-highlight:valid {
+    border: 1px solid #1f281f;
+    background-color: #f8f8f8;
+    color: #333;
+}
+.hms-input-highlight:invalid {
+    border: 1px solid red; 
+    background-color: #f8f8f8;
+    color: red; 
+}
+.hms-inp1{
+    width: 40px;
+}
+.hms-table-th{
+    background-color: white;
+    color: black;
+    height: 40px;
+}
+.hms-table{
+    background-color: white;
+    width: 90%;
+    margin: 2%;
+    border-collapse: collapse; 
+}
+.hms-table-td{
+    /* border: 2px solid #9f9c9c; */
+    text-align: center; 
+}
+.hms-table-th1{
+    /* border: 2px solid #9f9c9c; */
+    text-align: center; 
+}
+.hms-prescription-advise {
+    
+    height: 60px;
+    
+}
+.hms-complaints-diagnosis-div{
+    width: 50%;
+}
+.hms-complaints-ReactSelect1{
+    width: 50%;
+    /* margin-left: 20px;
+    margin-right: 180px;
+    margin-top: 10px; */
+}
+.hms-complaints-ReactSelect2{
+    width: 390px;
+    margin-left: 15px;
+   
+    margin-top: 10px;
+}
+.hms-tests-list{
+    width: 373px;
+    
+}
+.label543{
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+.hms-lab{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-right: -18%;
+}
+.hms-tests{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  
+}
+.hms-tests-req{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+    margin-top: 4%;
+} 
+.hms-table-notes{
+    height: 25px;
+   width: 90%;
+}
+.hms-medicine{
+    width: 93%;    
+    margin: 5px;   
+}
+.hms-table-medicine-dose{
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    text-align: center; 
+}
+.hms-test-when{
+    width: 370px;
+    height: 38px;    
+}
+.hms-table-add-icon{
+    color: green;
+    cursor: pointer; 
+    font-size: 28px;
+}
+.hms-table-delete-icon{
+    color: red;
+    cursor: pointer; 
+    font-size: 28px;
+}
+.hms-tests-req-label{
+    margin-left: 25px;
+}
+.hms-tests-when-label{
+    padding-left: 75px;
+}
+.hms-complaints-diagnosis-label{
+    margin-top: 8px;
+    width: 100px;
+    margin-left: 55px;
+}
+.hms-advs{
+    display: flex;
+    /* margin-top: 40px;
+    margin-left: 25px; */
+}
+.mtkr-3{
+    margin-top: 2%;
+}
+.hms-advs-diet{
+    display: block;
+    justify-content: space-between;
+    width: 85%;
+margin-left: 2%;
+}
+.hms-prescription-submit{
+    margin-left: 530px;
+    background: #a758a0;
+    color: white;
+    border:1px solid #333;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+.hms-prescription-submit:hover {
+    background: black; 
+    color: #fff; 
+    cursor: pointer;
+}
+
+
+.hello0099{
+  width: 20%;
+  height: 5vh;
+  margin-top: 1%;
+}
+.bp007{
+  display: flex;
+  
+}
+.sugar007{
+  display: flex;
+  
+}
+.height007{
+  display: flex;
+  
+}
+.weight007{
+  display: flex;
+}
+.temp007{
+  display: flex;
+}
+.spo2007{
+  display: flex;
+}
+.Pallor007{
+  display: flex;
+}
+.Edema007{
+  display: flex;
+}
+.Lcterus007{
+  display: flex;
+}
+.Lymphademopathy007{
+  display: flex;
+}
+.Clubbing007{
+  display: flex;
+}
+.Cyanosis007{
+  display: flex;
+}
+.JVP007{
+  display: flex;
+}
+.hey007{
+  margin-top: 14%;
+  margin-left: -50%;
+}
+.patient102{
+  display: flex;
+  margin-top: 2%;
+  /* gap: 2%; */
+}
+.patient103{
+  display: flex;
+  margin-top: 2%;
+}
+.patient104{
+  display: flex;
+  margin-top: 2%;
+}
+.patient105{
+  display: flex;
+  margin-top: 2%;
+}
+.input007{
+  width: 40%;
+}
+.allinput{
+  width: 100%;
+  margin-left: 2%;
+  
+}
+/* Mobile Styles */
+@media only screen and (max-width: 428px) {
+    .hms-body {
+        width: 160%;
+      font-family: 'Times New Roman', serif;
+      font-weight: 200;
+      margin: 15px;
+      border: 1px solid #333;
+      overflow-x: auto;
+    }
+    .hms-details {
+      padding: 1.2em;
+    }
+    .hms-vitals {
+      padding-left: 1.2em;
+    }
+    .hms-complaints-diagnosis-div {
+      width: 96%;
+    }
+    .hms-prescription-advise {
+      height: 31px;
+    }
+    .hms-vitals-all-input {
+      margin-left: 3%;
+      width: 101%;
+    }
+    .hms-vitals {
+      display: flex;
+      flex-direction: column;
+    }
+    .hms-complaints-diagnosis-div {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2%;
+      margin-left: -3%;
+    }
+    .hms-vitals-labels {
+      padding-left: 0em;
+    }
+    .hms-vitals-all-input {
+      display: flex;
+     
+      align-items: flex-start;
+      margin-left: 3%;
+    }
+    .hms-vitals-all-input-div {
+      display: block;
+    }
+    .hms-vitals-all-input-sub-div {
+      justify-content: space-between;
+    }
+    .hms-input-highlight {
+      width: 100%;
+      border: 1px solid #ccc;
+      height: 2%;
+      text-align: center;
+      border-radius: 2px;
+      margin: 0.4%;
+    }
+    .hms-input-highlight:focus {
+      outline: none;
+      border: 1px solid #1f281f;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    .hms-input-highlight:valid {
+      border: 1px solid #1f281f;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    .hms-input-highlight:invalid {
+      border: 1px solid red;
+      background-color: #f8f8f8;
+      color: red;
+    }
+    .hms-inp1 {
+      width: 15%;
+    }
+    .hms-table-th {
+      background-color: white;
+      color: black;
+      height: 4%;
+    }
+    .hms-table {
+      width: 100%;
+      margin: 2% 2%;
+    }
+    .hms-table-td,
+    .hms-table-th1 {
+      width: auto;
+      padding: 5px;
+    }
+    .hms-prescription-advise {
+      width: 100%;
+      margin: 6% 0;
+    }
+    .hms-complaints-ReactSelect1 {
+      width: 80%;
+      margin-left: 2%;
+      margin-right: 1.8%;
+      margin-top: 1%;
+    }
+    .hms-complaints-ReactSelect2 {
+      width: 80%;
+      margin-left: 2%;
+      margin-top: 1%;
+    }
+    .hms-tests-list,
+    .hms-tests,
+    .hms-tests-req,
+    .hms-medicine,
+    .hms-table-medicine-dose,
+    .hms-test-when,
+    .hms-table-notes {
+      width: 100%;
+      margin: 2% ;
+    }
+    .hms-tests-list{
+        padding: 2%;
+     }
+    .hms-table-add-icon {
+      color: green;
+      cursor: pointer;
+      font-size: 28px;
+    }
+    .hms-table-delete-icon {
+      color: red;
+      cursor: pointer;
+      font-size: 28px;
+    }
+    .hms-tests-req-label {
+      padding-left: 2em;
+    }
+    .hms-tests-when-label {
+      padding-left: 2em;
+      margin-bottom: 1%;
+    }
+    .hms-complaints-diagnosis-label {
+      margin-left: 5%;
+      font-weight: 200;
+    }
+    .hms-advs {
+      display: flex;
+      align-items: center;
+      margin-left: 4%;
+    }
+    .hms-advs-diet {
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+    }
+    .hms-prescription-submit {
+      margin-left: 40%;
+      background: rgb(22, 152, 22);
+      color: white;
+      border: 1px solid #333;
+      width: 25%;
+      margin-bottom: 8%;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    .hms-prescription-submit:hover {
+      background: darkgreen;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  
+
+  @media only screen and (min-width: 429px) and (max-width: 768px) {
+    .hms-body {
+    
+      font-size: 14px; 
+    }
+  
+    .hms-details {
+      padding: 1.5em; 
+    }
+    .hms-vitals {
+        display: flex;
+        flex-direction: column;
+    }
+    .hms-complaints-diagnosis-div{
+        margin-top: 4%;
+        width: 100%;
+        margin-left: -4%;
+    }
+    .hms-advs-diet {
+        display: flex;
+        flex-direction: column;
+    }
+    .hms-prescription-advise{
+        margin-top: 3%;
+    }
+    .hms-tests-req {
+        margin-top: 3%;
+    }
+    .hms-tests-list{
+       padding: 1%;
+    }
+   .hms-prescription-submit{
+    margin-left: 47%;
+   }
+   
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+   
+  
+    .hms-advs-diet {
+        width: 91%;
+    }
+    .hms-prescription-advise {
+        width: 321px;
+        height: 43px;
+    }
+    .label543 {
+        width: 80px;
+    }
+    .hms-tests-list {
+        width: 330px;
+    }
+
+  }
+  

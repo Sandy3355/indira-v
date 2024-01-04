@@ -1,0 +1,409 @@
+.home {
+  background-color: black;
+}
+.admin {
+  display: flex;
+}
+.AnotherBody {
+  background-image: url("https://img.freepik.com/free-photo/blurry-blank-purple-bokeh-background_53876-101691.jpg?w=900&t=st=1704290793~exp=1704291393~hmac=beb842c23306811c4b7d866adf08760bc7929ccd31f28fdde7d0bfc6f73d570c");
+  width: 50%;
+  height: 90vh;
+  background-size: cover;
+}
+
+.image {
+  background-color:#a758a0;
+
+  width: 50%;
+  height: 90vh;
+}
+.SignInHome {
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.forml input {
+  width: 60%;
+  padding: 15px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid transparent; /* Set border to transparent */
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 100px;
+  background-color: white transparent !important; /* Set background to transparent with some opacity */
+}
+
+
+.remember-forgot {
+  display: flex;
+
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.remember-forgot label {
+  display: flex;
+  align-items: center;
+}
+
+.remember-forgot input {
+  margin-right: -10px;
+}
+
+.forgot-password {
+  color: #090909;
+  cursor: pointer;
+  margin-left: 120px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.head2for-lk {
+  text-align: center;
+}
+.body-imge123 {
+  width: 400px;
+  height: 68vh;
+  margin-top: 17px;
+  margin-left: 110px;
+}
+.logininput_1 {
+  height: 35px;
+  width: 23vw;
+  /* margin-left: 6px; */
+  border: 1px solid #00b69d;
+  border-radius: 5px;
+  /* margin-left: 8vw; */
+}
+.logininput_2 {
+  height: 35px;
+  width: 23vw;
+
+  border: 1px solid #00b69d;
+  border-radius: 5px;
+}
+
+.forml {
+  border: 0.5px solid #ccc;
+
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+
+  width: 135%;
+    height: 94vh;
+  display: flex;
+}
+
+.right-label {
+  float: right;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#sub_btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#sub_btn:hover {
+  background-color: white;
+}
+
+form span {
+  font-size: 0.8rem;
+}
+
+#reset_pass_lbl {
+  float: left;
+}
+
+/*    Home Page     */
+.home-page-title {
+  color: #222;
+}
+.buttonn_13 {
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 18vw;
+  padding: 10px;
+  background-color: #a758a0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  display: block;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.buttonn_13:hover {
+  /* background-color: #05a83c; */
+  background-color: black;
+  color: white;
+}
+.first {
+  color: #eafa0a;
+}
+
+.error-message {
+  color: red;
+}
+.id-label {
+  font-weight: bold;
+  /* margin-left: 8vw; */
+}
+.fileds-login {
+  margin-left: 8vw;
+  display: flex;
+  flex-direction: column;
+}
+.admin {
+  display: flex;
+}
+.navbar-image-left123 {
+  width: 105.7px; /* Adjust the width as needed */
+  height: 100px;
+  margin-left: 200px;
+}
+.ind-Main-123 {
+  text-align: center;
+  margin-top: 60px;
+  color: white;
+}
+.main-heading987{
+  color: white !important;
+}
+.Label1{
+  padding-left: 100px;
+  /* margin-left: 10px; */
+
+}
+.email-654{
+  margin-left: 100px;
+  color: black;
+}
+.sigin-form987{
+  display: block;
+}
+#togglePassword {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+}
+
+#togglePassword::before {
+  content: "\1F441"; /* Unicode for eye symbol */
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.password-visible #togglePassword::before {
+  content: "\1F441\0336";
+}
+
+@media screen and (max-width: 768px) {
+  .forml {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .body-imge123 {
+    width: 300px;
+    margin-left: 0;
+    margin-top: -20px;
+  }
+  .head2for-lk {
+    font-size: 15px;
+  }
+
+  .forml input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid transparent; /* Set border to transparent */
+    border-radius: 4px;
+    font-size: 10px;
+    margin-left: 20px;
+    background-color: white transparent; /* Set background to transparent with some opacity */
+  }
+  .remember-forgot {
+    display: flex;
+
+
+
+    font-size: 10px;
+  }
+  .Label1 {
+    padding-left: 20px;
+  }
+  .remember-forgot .Label1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .forgot-password {
+    color: #090909;
+    cursor: pointer;
+    margin-left: 60px;
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .logininput_1,
+  .logininput_2 {
+    width: 80px;
+  }
+  .AnotherBody {
+    background-image: url("./images/Image231.jpeg");
+    width: 370px;
+    height: 90vh;
+    background-size: cover;
+    margin-right: auto;
+  }
+
+  .image {
+    background-color: rgba(9, 131, 245, 0.876);
+
+    width: 375px;
+    height: 90vh;
+  }
+  .SignInHome {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+  .buttonn_13 {
+    background-color: #1664da;
+    width: 20vh;
+    margin-left: 100px;
+    height: 40px;
+
+    margin-top: -10px;
+    padding-top: -10px;
+  }
+}
+
+/* ... (existing styles) */
+
+@media screen and (max-width: 425px) {
+  .forml {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+  }
+
+  .body-imge123 {
+    width: 100%;
+    margin-left: 0;
+    background-color: #f0f0f0;
+    height: fit-content; /* Background color for smaller screens */
+  }
+
+  .head2for-lk {
+    font-size: 14px;
+  }
+
+  .forml input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .remember-forgot {
+    display: flex;
+    font-size: 12px;
+  }
+
+  .Label1 {
+    padding-left: 30px;
+  }
+
+  .remember-forgot .Label1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .forgot-password {
+    color: #090909;
+    cursor: pointer;
+    margin-left: 0;
+    font-weight: 600;
+  }
+
+  .logininput_1,
+  .logininput_2 {
+    width: 80px;
+  }
+
+  .AnotherBody {
+    background-image: url("./images/Image231.jpeg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+
+  .image {
+    background-color: rgba(9, 131, 245, 0.876);
+    width: 100%;
+    height: 70vh;
+  }
+
+  .SignInHome {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
+  .buttonn_13 {
+    background-color: #1664da;
+    width: 40%;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .forml {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .body-imge123 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px; /* Adjust as needed */
+  }
+
+  .logininput_1,
+  .logininput_2 {
+    width: 100%;
+  }
+
+  .navbar-image-left123 {
+    margin-left: 5px;
+  }
+
+  /* Add more styles as needed for smaller mobile screens */
+}

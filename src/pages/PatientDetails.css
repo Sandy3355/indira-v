@@ -1,0 +1,791 @@
+.patient-details-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+  .prescription-list {
+    list-style-type: none;
+  }
+  
+  .prescription-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .date-time {
+    font-weight: bold;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .hms-tab-medicine{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  .hms-table-th-medicine{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+  }
+  .hms-table-td-medicine{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+  }
+  .medicine-list,
+  .complaints-list {
+    list-style-type: none;
+    margin-left: 20px;
+   
+  }
+  
+  .medicine-list li,
+  .complaints-list li {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .medicines-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .complaint-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .patient-date-details{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+  }
+  .d7app{
+    background:url('https://s3-alpha-sig.figma.com/img/f012/c45f/579a9e08deb86684824844e2dde99dc4?Expires=1704672000&Signature=FuO4iCKFrn3mbjYv4k3w1sTRxQ8UgMcnCtgv02C8QEtMM~23S~H8EsMHGuQ~FouLzJoH2AexjctqJeu7t3cnt-YZLTkMgeVEsrkYNW98c49crAVqRE84VLvuy1xfoByBhai1gUt8frOoEePCOEhcDsPKuXm5HO430WPYPkVbvg56csUzQaEeesLu8kk5V7y7Cvq22-h0T6w06peSzs~nr~nr8~wnSGaXYbPFwbNeOQ1HeSfXSZBTpcay~EzuWfIwlKhZFKJqzCToq3I3poi~pkIPXNsguyxlNFCR7fVgVMaz430JHwnpuP6mOtXDpODjYYyNraiv~~VLqZlt4Nq9Ww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 3%;
+  }
+  
+  .button-link:hover {
+    background-color: #0056b3;
+  }
+  .tests-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    width:35%;
+  }
+  .test-item {
+    margin-bottom: 5px;
+  }
+  .hms-first-div{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+  }
+  .hms-inp-when{
+   height: 70px;
+   margin-top: 5%;
+  }
+  .hms-advs-diet {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 2%;
+}
+.hms-cmp-dia{
+  display: block;
+  justify-content: space-between;
+  width: 80%;
+}
+.mainheading123 {
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #a758a0;
+  width: 100%;
+}
+.heading123 {
+  margin: 0px;
+}
+.vitailsname {
+  margin-left: 35px;
+}
+.hms-vitals {
+  display: flex;
+}
+.hms-vitals-all-input {
+  margin-left: 3%;
+  width: 50%;
+}
+.hms-vitals-all-input-div {
+  display: flex;
+}
+.label543 {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+/* label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 100px ;
+} */
+.hms-tests-req {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.hms-table-th {
+  background-color: white;
+  color: black;
+  height: 40px;
+}
+.hms-advs {
+  display: flex;
+  margin-top: 5%;
+}
+.hms-prescription-advise {
+  height: 60px;
+  font-family: 'Arial', sans-serif;
+  
+}
+.hms-lab {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  margin-right: -18%;
+}
+.hms-tests-when{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .patient-details-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+  .prescription-list {
+    list-style-type: none;
+  }
+  
+  .prescription-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .date-time {
+    font-weight: bold;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .hms-input-highlight:valid {
+    border: 1px solid #1f281f;
+    background-color: #f8f8f8;
+    color: #333;
+}
+.hms-input-highlight {
+  
+  border: 1px solid #ccc;
+  height: 40%;
+  text-align: center;
+  border-radius: 2px;
+  margin: 0.4%;
+  width: 24%;
+}
+  .hms-tab-medicine{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  .hms-table-th-medicine{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+  }
+  .hms-table-td-medicine{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+  }
+  .medicine-list,
+  .complaints-list {
+    list-style-type: none;
+    margin-left: 20px;
+   
+  }
+  
+  .medicine-list li,
+  .complaints-list li {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .medicines-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .complaint-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .patient-date-details{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+  }
+  .d7app{
+    background:url('https://s3-alpha-sig.figma.com/img/f012/c45f/579a9e08deb86684824844e2dde99dc4?Expires=1704672000&Signature=FuO4iCKFrn3mbjYv4k3w1sTRxQ8UgMcnCtgv02C8QEtMM~23S~H8EsMHGuQ~FouLzJoH2AexjctqJeu7t3cnt-YZLTkMgeVEsrkYNW98c49crAVqRE84VLvuy1xfoByBhai1gUt8frOoEePCOEhcDsPKuXm5HO430WPYPkVbvg56csUzQaEeesLu8kk5V7y7Cvq22-h0T6w06peSzs~nr~nr8~wnSGaXYbPFwbNeOQ1HeSfXSZBTpcay~EzuWfIwlKhZFKJqzCToq3I3poi~pkIPXNsguyxlNFCR7fVgVMaz430JHwnpuP6mOtXDpODjYYyNraiv~~VLqZlt4Nq9Ww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 700px;
+  }
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 3%;
+  }
+  
+  .button-link:hover {
+    background-color: #0056b3;
+  }
+  .tests-box {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-left: 10%;
+    background-color: #fff;
+    width:55%;
+  }
+  .test-item {
+    margin-bottom: 5px;
+  }
+  .hms-first-div{
+    display: block;
+    
+
+  }
+  .hms-inp-when{
+   height: 70px;
+   margin-top: 5%;
+   width: 35%;
+   margin-left: -24%;
+  }
+  .hms-advs-diet {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 2%;
+}
+.hms-cmp-dia{
+  display: block;
+  justify-content: space-between;
+  width: 80%;
+}
+.mainheading123 {
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #a758a0;
+  width: 100%;
+}
+.heading123 {
+  margin: 0px;
+}
+.vitailsname {
+  margin-left: 5%;
+}
+.hms-vitals {
+  display: block;
+}
+.hms-vitals-all-input {
+  margin-left: 3%;
+  width: 50%;
+}
+.hms-vitals-all-input-div {
+  display: block;
+  margin-bottom: 5%;
+}
+.hms-vitals-all-input-sub-div {
+  display: block;
+  /* margin: 4%; */
+}
+.label543 {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  /* margin-left: -60%; */
+}
+/* label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 100px ;
+} */
+.hms-tests-req {
+  display: flex;
+  flex-direction: row;
+  /* margin-bottom: 4%; */
+  margin-top: 8%;
+  justify-content: space-between;
+}
+.hms-tests-when {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+  justify-content: space-between;
+}
+.hms-table-th {
+  background-color: white;
+  color: black;
+  height: 40px;
+}
+.hms-advs {
+  display: flex;
+}
+.hms-prescription-advise {
+  height: 100%;
+  width: 100%;
+}
+.hms-lab {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  margin-right: 18%;
+}
+
+}
+@media(max-width:768px){
+  .mainheading123{
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  .patient-details-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+  .prescription-list {
+    list-style-type: none;
+  }
+  
+  .prescription-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .date-time {
+    font-weight: bold;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .hms-tab-medicine{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  .hms-table-th-medicine{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+  }
+  .hms-table-td-medicine{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+  }
+  .medicine-list,
+  .complaints-list {
+    list-style-type: none;
+    margin-left: 20px;
+   
+  }
+  
+  .medicine-list li,
+  .complaints-list li {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .medicines-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .complaint-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .patient-date-details{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+  }
+  .d7app{
+    background:url('https://s3-alpha-sig.figma.com/img/f012/c45f/579a9e08deb86684824844e2dde99dc4?Expires=1704672000&Signature=FuO4iCKFrn3mbjYv4k3w1sTRxQ8UgMcnCtgv02C8QEtMM~23S~H8EsMHGuQ~FouLzJoH2AexjctqJeu7t3cnt-YZLTkMgeVEsrkYNW98c49crAVqRE84VLvuy1xfoByBhai1gUt8frOoEePCOEhcDsPKuXm5HO430WPYPkVbvg56csUzQaEeesLu8kk5V7y7Cvq22-h0T6w06peSzs~nr~nr8~wnSGaXYbPFwbNeOQ1HeSfXSZBTpcay~EzuWfIwlKhZFKJqzCToq3I3poi~pkIPXNsguyxlNFCR7fVgVMaz430JHwnpuP6mOtXDpODjYYyNraiv~~VLqZlt4Nq9Ww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1024px;
+  }
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 3%;
+  }
+  
+  .button-link:hover {
+    background-color: #0056b3;
+  }
+  .tests-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    width:35%;
+  }
+  .test-item {
+    margin-bottom: 5px;
+  }
+  .hms-first-div{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+  }
+  .hms-tests-when{
+      display: flex;
+      flex-direction: row;
+      margin-top: 4%;
+      justify-content: space-between;
+  }
+  .hms-advs-diet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 2%;
+}
+.hms-cmp-dia{
+  display: block;
+  justify-content: space-between;
+  width: 80%;
+}
+.mainheading123 {
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #a758a0;
+  width: 100%;
+  color: white;
+}
+.heading123 {
+  margin: 0px;
+}
+.vitailsname {
+  margin-left: 35px;
+}
+.hms-vitals {
+  display: flex;
+}
+.hms-vitals-all-input {
+  margin-left: 3%;
+  width: 50%;
+}
+.hms-vitals-all-input-div {
+  display: flex;
+}
+.label543 {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+/* label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 100px ;
+} */
+.hms-tests-req {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.hms-table-th {
+  background-color: white;
+  color: black;
+  height: 40px;
+}
+.hms-advs {
+  display: flex;
+}
+.hms-prescription-advise {
+  height: 60px;
+}
+.hms-lab {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  margin-right: -18%;
+}
+
+}
+
+@media only screen and (min-width: 1025px) {
+  .patient-details-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+  .prescription-list {
+    list-style-type: none;
+  }
+  
+  .prescription-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .date-time {
+    font-weight: bold;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .hms-tab-medicine{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  .hms-table-th-medicine{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+  }
+  .hms-table-td-medicine{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+  }
+  .medicine-list,
+  .complaints-list {
+    list-style-type: none;
+    margin-left: 20px;
+   
+  }
+  
+  .medicine-list li,
+  .complaints-list li {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .medicines-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .complaint-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .patient-date-details{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+  }
+  .d7app{
+    background:url('https://s3-alpha-sig.figma.com/img/f012/c45f/579a9e08deb86684824844e2dde99dc4?Expires=1704672000&Signature=FuO4iCKFrn3mbjYv4k3w1sTRxQ8UgMcnCtgv02C8QEtMM~23S~H8EsMHGuQ~FouLzJoH2AexjctqJeu7t3cnt-YZLTkMgeVEsrkYNW98c49crAVqRE84VLvuy1xfoByBhai1gUt8frOoEePCOEhcDsPKuXm5HO430WPYPkVbvg56csUzQaEeesLu8kk5V7y7Cvq22-h0T6w06peSzs~nr~nr8~wnSGaXYbPFwbNeOQ1HeSfXSZBTpcay~EzuWfIwlKhZFKJqzCToq3I3poi~pkIPXNsguyxlNFCR7fVgVMaz430JHwnpuP6mOtXDpODjYYyNraiv~~VLqZlt4Nq9Ww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 3%;
+  }
+  
+  .button-link:hover {
+    background-color: #0056b3;
+  }
+  .tests-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    width:35%;
+  }
+  .test-item {
+    margin-bottom: 5px;
+  }
+  .hms-first-div{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+  }
+  .hms-inp-when{
+   height: 70px;
+   margin-top: 5%;
+  }
+  .hms-advs-diet {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 2%;
+}
+.hms-cmp-dia{
+  display: block;
+  justify-content: space-between;
+  width: 80%;
+}
+.mainheading123 {
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #a758a0;
+  width: 100%;
+}
+.heading123 {
+  margin: 0px;
+}
+.vitailsname {
+  margin-left: 35px;
+}
+.hms-vitals {
+  display: flex;
+}
+.hms-vitals-all-input {
+  margin-left: 3%;
+  width: 50%;
+}
+.hms-vitals-all-input-div {
+  display: flex;
+}
+.label543 {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+/* label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 100px ;
+} */
+.hms-tests-req {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.hms-table-th {
+  background-color: white;
+  color: black;
+  height: 40px;
+}
+.hms-advs {
+  display: flex;
+}
+.hms-prescription-advise {
+  height: 60px;
+}
+.hms-lab {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  margin-right: -18%;
+}
+
+}
